@@ -1,0 +1,252 @@
+html,body{
+    overflow-x: hidden;
+}
+body{
+   margin: 0px;
+   text-size-adjust: auto;
+   font-family: 'Poppins', sans-serif;
+   background-image:url(https://images.pexels.com/photos/9176038/pexels-photo-9176038.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+   background-repeat: repeat-y;
+   background-position: center;
+   background-size: 100%;
+   /*background-position: bottom;*/
+}
+.txt{
+    color: #6bc0e5;
+    position:relative;
+    top: -250px;
+    left: 50px;
+    font-size:6vw;
+}
+
+@media screen  and (max-width:640px) {
+    .images{
+        height:325px;
+        width: moz-fit-content;
+    }
+    .txt{
+        top:-150px;
+        left:30px;
+        font-size:8vw;
+    }
+    footer{
+        flex-wrap: wrap;
+        align-items: start;
+    
+    }
+    p{
+        line-height: 7px;
+    }
+    .card{
+        height: 47vw !important;
+    width: 76vw !important;
+    }
+    .cal{
+        top:-296px !important;
+        left:30px !important;
+        font-size:3vw !important;
+    }
+    body{
+        /* background-size: 200vw !important; */
+        background-position: none !important;
+    }
+    .tab{
+        justify-content: normal !important;
+    }
+    .ModCard{
+        padding-top: 20px;
+    }
+    .d-flex{
+        justify-content: center !important;
+        padding-right: 0px !important;
+    }
+    
+    
+    
+}
+footer{
+    background-color: #074698;
+    color: white;
+    padding: 40px;
+    font-weight: lighter;
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-image: url(https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
+
+}
+
+.navbar{
+    padding: 10px;
+    color: #074698; 
+    background-color: aliceblue;
+}
+.navbar-brand{
+    color:#074698;
+}
+.nav-link{
+    padding:10px;
+    color: #074698; 
+}
+.nav-item:hover{
+    background-color: rgb(145, 173, 199);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border-color: darkgrey;
+
+}
+
+
+.flex-container{
+    padding-bottom: 50px;
+    color:#074698;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    color:#074698;
+    z-index: 1;
+    box-shadow:1px 5px 10px 7px rgb(116, 142, 165);
+    top:-5vw;
+    /* padding: 150px; */
+    flex-direction: column;
+    width: 47vw;
+    height: 30vw;
+    padding-top: 5vw;
+    background: rgba(155,200,218,0.5);
+-webkit-backdrop-filter: blur(11px);
+backdrop-filter: blur(11px);
+border: 1px solid rgba(155,200,218,0.25);
+} 
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+a:hover{
+    color:#6bc0e5;
+}
+p{
+    line-height: 1vw;
+}
+.foot{
+    
+    background-image: url(https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
+}
+.cal{
+color: #6bc0e5;
+position:relative;
+top: -519px ;
+left: 50px;
+font-size:1.5vw;
+font-weight: lighter;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+td{
+    padding: 10px;
+}
+
+table{
+    text-align: center;
+    background: rgba(155,200,218,0.5);
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    border: 1px solid rgba(155,200,218,0.25);
+    border-radius: 10px;
+    color:#074698;
+}
+th{
+    padding: 10px;
+}
+.InCard{
+    border: 1px solid rgba(155,200,218,0.25);
+    border-radius: 10px;
+    background: aliceblue;
+    width:210%;
+    padding: 5px;
+}
+.InImg{
+    border-radius: 100%;
+    width:55px;
+    height:55px;
+    float: left;
+    padding: 5px;
+    
+}
+.modal-header{
+    background-color: #074698;
+    color: #6bc0e5;
+}
+
+.modal-content{
+    color:#074698;
+    font-size: larger;
+}
+.lower{
+    font-size:13px;
+    color:#039BE5;
+    font-weight:"lighter"; 
+    
+}
+.ModCard{
+    line-height: 10px;
+}
+.Stat{
+    color: white;
+    width: 125px;
+    height: 35px;
+    padding-top: 11px;
+    padding-left: 9px;
+    border-radius: 10px;
+}
+.badge{
+    background-color: lightgray;
+    color: red;
+    font-weight: lighter;
+}
+.d-flex{
+    
+justify-content: end; 
+padding-right: 100px;
+}
+.s{
+    width:180px;
+    background: none;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    border-bottom-color: #074698;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: medium;
+}
+
+.msg{
+    
+background: rgba(155,200,218,0.5);
+-webkit-backdrop-filter: blur(0px);  
+backdrop-filter: blur(0px);   
+border: 1px solid rgba(155,200,218,0.25);   
+border-radius: 10px;   
+color:#074698;   
+height: 60px; 
+display: flex;
+justify-content:center;
+align-items: center;
+width: 50%;
+align-content: center;
+}
