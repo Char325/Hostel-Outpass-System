@@ -50,11 +50,14 @@ The system uses the following major frameworks/ libraries:
  ## Dashboard
  The dashboard displays the number of approved, denied, and pending outpasses with a user-friendly UI and seamless backend connectivity.
  ### Deskstop Ver.
- <img width="400" alt="Screenshot 2023-08-13 122000" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/7da4794f-f5f3-40ca-b90d-387d7f22ee62">
- <img width="400" alt="Screenshot 2023-08-13 122019" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/992d9b33-22f1-4045-8b17-09f67483eda9">
+ <img width="400" alt="Screenshot 2023-08-13 122000" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/ab11fdd6-0d5a-4f43-99a3-99bda86db18e">
+
+ <img width="400" alt="Screenshot 2023-08-13 122019" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/5a629c02-8f46-4416-b09c-e68a8a854054">
 
  ### Mobile Ver.
- <img width="216" alt="Screenshot 2023-08-13 122053" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/6b51ff1c-f5f0-4313-b0f0-afaea76c03af">
+ <img width="216" alt="Screenshot 2023-08-13 122053" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/cdb8b2f5-2b82-4088-95b4-054e8464f062">
+<img width="214" alt="Screenshot 2023-08-13 122117" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/206edb1e-4823-4de4-9377-aeee8091bec0">
+
 
  ### States of an Out-pass
 
@@ -75,30 +78,46 @@ The system uses the following major frameworks/ libraries:
  View functionality show all outpasses (approved, denied and pending) that are one week old. The approved and denied functionalities similar to view displays the outpasses that were approved and denied respectively, for easy lookup for the warden. They come with a view button which allows the warden to view the student's information. Student deyails are displayed using Bootstrap Modals. A Search feature is also enabled for easy navigation. Emergency passes are displayed with special tags and are treated as first-prority and are dispayed at the top.
 
  ### Desktop Ver.
- <img width="400" alt="Screenshot 2023-08-13 124811" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/0f7c3b64-06b4-473e-8222-6ea4d175b6b7">
- <img width="400" alt="Screenshot 2023-08-13 124832" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/aa493bc2-0151-4bd4-857a-d47dfbf3a1e5">
+ <img width="400" alt="Screenshot 2023-08-13 124811" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/586fb529-adc6-4c97-b30c-8067d42e0fb0">
+<img width="400" alt="Screenshot 2023-08-13 124832" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/a526791c-cddc-48cb-be09-7f395af0afe4">
+
+ 
 
  ## Mobile Ver.
- <img width="212" alt="Screenshot 2023-08-13 124906" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/ca9f92da-b29e-4f73-a0f3-4c8f8f8b383f">
- <img width="214" alt="Screenshot 2023-08-13 124924" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/76ed726f-59fe-449c-a09a-772b08a07866">
+ <img width="212" alt="Screenshot 2023-08-13 124906" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/0b1776c7-b2d6-43fe-aa96-9b11519ede7f">
+
+ <img width="214" alt="Screenshot 2023-08-13 124924" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/bd98c45e-a45e-423a-8a8d-55f59c47e9e1">
+
 
 ## Pending
 
 The pending functionality displays the outpasses that needs to be approved or denied. There is an approve all feature, which on clicking changes the status of all the outpasses that are pending to "Approved". On clicking Denial button, the warden is prompted to input the reason for denial, after which changes are made in the database. After approving or denying a toastify alert is displayed accordingly.
 
 ### Desktop Ver.
-<img width="400" alt="Screenshot 2023-08-13 125942" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/391ea70a-0efb-44d3-bf83-c0424e7d332a">
-<img width="400" alt="Screenshot 2023-08-13 130045" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/7a8fd2a7-5995-410c-a776-683990c7385d">
+<img width="400" alt="Screenshot 2023-08-13 125942" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/5f092647-f15b-4b7b-8d0c-1794120ac029">
+
+<img width="400" alt="Screenshot 2023-08-13 130045" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/843e7eb4-5e7f-4bc6-bb74-d10914eb6cc2">
+
 
 ### Mobile Ver.
-<img width="213" alt="Screenshot 2023-08-13 130012" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/e98bd758-6edc-4999-8bf6-9beaea008618">
-<img width="216" alt="Screenshot 2023-08-13 130027" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/76ea94eb-0613-4c1b-a841-58619825d1f7">
+<img width="213" alt="Screenshot 2023-08-13 130012" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/50595f83-16f3-4cea-845a-c48e0200ce79">
+
+<img width="216" alt="Screenshot 2023-08-13 130027" src="https://github.com/Char325/Hostel-Outpass-System/assets/111283967/5df801fd-d777-4c39-ad7f-8cabbfa1cebe">
+
 
 # Intergrated Version
  ## Desktop Ver.
-https://github.com/Char325/Hostel-Outpass-System/assets/111283967/91723861-08ae-4245-9b86-4e0fb2301e81
+
+
+https://github.com/Char325/Hostel-Outpass-System/assets/111283967/099a3115-7afb-4205-9581-a162a9686a68
+
+
 ## Mobile Ver.
-https://github.com/Char325/Hostel-Outpass-System/assets/111283967/4396251e-3cc7-4bc7-83e9-cc7120dbaaf4
+
+
+
+https://github.com/Char325/Hostel-Outpass-System/assets/111283967/6b9c9f61-92c0-418c-87de-e05d578ff857
+
 
 
 
